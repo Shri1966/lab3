@@ -8,7 +8,7 @@ int a, b, larger;
 	cin>>a>>b;
 	if(a>b)
 	{larger=a;}
-	else
+	if(b>a)
 	{larger=b;}
 	cout<<"largest of the two number is "<<larger;
 	return 0;
