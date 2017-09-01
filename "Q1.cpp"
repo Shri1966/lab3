@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int a, b, larger;
+	cout<<"Enter two number : ";
+	cin>>a>>b;
+	if(a>b)
+	{larger=a;}
+	else
+	{larger=b;}
+	cout<<"largest of the two number is "<<larger;
+	return 0;
+}
