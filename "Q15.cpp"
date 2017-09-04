@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+ int s1, s2, s3;
+cout<<"three sides of triangle";
+cin>>s1>>s2>>s3;
+if(pow(s1,2)+pow(s2,2)== pow(s3,2))
+cout<<"triangle is valid";
+else 
+cout<<"triangle is not valid";
+return 0;
+}
