@@ -1,1 +1,15 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+int n;
+int x=1, sum=0;
+cout<<"enter a positive integer";
+cin>>n;
+cout<<"n first"<<n<<"positive natural number are";
+while(x<=n)
+{sum=sum+x;
+x++;}
+cout<<"sum x="<<sum;
+	return 0;
+}
